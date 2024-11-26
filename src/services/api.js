@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const BASE_URL = "https://rbac-project-ddf7.onrender.com"; 
+const BASE_URL = "https://cors-anywhere.herokuapp.com/https://rbac-project-ddf7.onrender.com";
+
 
 export const fetchUsers = async () => {
   const response = await axios.get(`${BASE_URL}/users`);
