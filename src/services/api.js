@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL =  process.env.REACT_APP_API_URL || "http://localhost:3001"; 
+const BASE_URL = "https://rbac-project-ddf7.onrender.com"; 
 
 export const fetchUsers = async () => {
   const response = await axios.get(`${BASE_URL}/users`);
