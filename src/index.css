@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: url('https://imgs.search.brave.com/4og3qOVfVHakzUWkNMBYTizIvNRNv2ioWXrVSeRYSM0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by93aGl0ZS1vZmZp/Y2UtZGVzay10YWJs/ZS13aXRoLWNvbXB1/dGVyLWtleWJvYXJk/LWdsYXNzLXdhdGVy/LXRvcC12aWV3LXdp/dGgtY29weS1zcGFj/ZV85NjAzOTYtNjM4/NzEzLmpwZz9zaXpl/PTYyNiZleHQ9anBn') 
+              no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-size: auto 100%;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+}

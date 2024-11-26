@@ -1,0 +1,102 @@
+
+.user-management {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+form input,select {
+  padding: 5px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 1.3rem;
+}
+
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .user-table th,
+  .user-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .user-table th {
+    background-color: #191d1a;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .user-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .user-table tr:hover {
+    background-color: rgba(128, 128, 128, 0.849);
+  }
+  
+  .user-table input,
+  .user-table select {
+    padding: 8px;
+    font-size: 14px;
+    width: 100%;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+  }
+  
+  .user-table input:focus,
+  .user-table select:focus {
+    border-color: #4caf50;
+    outline: none;
+  }
+  
+  button {
+    padding: 8px 16px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+    transform: translateY(-2px);
+  }
+  
+  button:first-child {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  button:first-child:hover {
+    background-color: #45a049;
+  }
+  
+  button:last-child {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  button:last-child:hover {
+    background-color: #e53935;
+  }
+  

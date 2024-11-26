@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "name": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "role": "Viewer",
+      "status": "Inactive",
+      "id": "2"
+    },
+    {
+      "name": "newrole people",
+      "email": "peolsfdfe@gmail.com",
+      "role": "Editor",
+      "status": "Inactive",
+      "id": "9336"
+    },
+    {
+      "name": "newname",
+      "email": "new@gmai.com",
+      "role": "Viewer3",
+      "status": "Active",
+      "id": "9b2f"
+    }
+  ],
+  "roles": [
+    {
+      "id": "2",
+      "name": "Editor",
+      "permissions": [
+        "Read",
+        "Write"
+      ]
+    },
+    {
+      "name": "Viewer",
+      "permissions": [
+        "Read"
+      ],
+      "id": "3"
+    },
+    {
+      "id": "7cdb",
+      "name": "Admin2",
+      "permissions": [
+        "Read",
+        "Delete"
+      ]
+    },
+    {
+      "id": "fab3",
+      "name": "Viewer3",
+      "permissions": [
+        "Read",
+        " Delete"
+      ]
+    }
+  ]
+}
